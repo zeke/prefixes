@@ -1,0 +1,16 @@
+{
+  "name": "prefixes-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "an-array-of-english-words": "^2.0.0"
+  }
+}

@@ -1,0 +1,1346 @@
+[
+  {
+    "prefix": "pre-",
+    "origin": "Latin",
+    "script": "prae-",
+    "meaning": "before",
+    "examples": [
+      "predict",
+      "prevent",
+      "preview"
+    ],
+    "frequency": 2527
+  },
+  {
+    "prefix": "re-",
+    "origin": "Latin",
+    "script": "re-",
+    "meaning": "again, back",
+    "examples": [
+      "rebuild",
+      "return",
+      "recycle"
+    ],
+    "frequency": 9074
+  },
+  {
+    "prefix": "un-",
+    "origin": "Latin",
+    "script": "un-",
+    "meaning": "not, reversal",
+    "examples": [
+      "undo",
+      "unhappy",
+      "unknown"
+    ],
+    "frequency": 7401
+  },
+  {
+    "prefix": "in-",
+    "origin": "Latin",
+    "script": "in-",
+    "meaning": "not; into",
+    "examples": [
+      "invisible",
+      "inject",
+      "include"
+    ],
+    "frequency": 6262
+  },
+  {
+    "prefix": "dis-",
+    "origin": "Latin",
+    "script": "dis-",
+    "meaning": "apart, not",
+    "examples": [
+      "disconnect",
+      "disorder",
+      "disable"
+    ],
+    "frequency": 2907
+  },
+  {
+    "prefix": "ex-",
+    "origin": "Latin",
+    "script": "ex-",
+    "meaning": "out of, former",
+    "examples": [
+      "export",
+      "exit",
+      "exhale"
+    ],
+    "frequency": 2003
+  },
+  {
+    "prefix": "sub-",
+    "origin": "Latin",
+    "script": "sub-",
+    "meaning": "under, below",
+    "examples": [
+      "submarine",
+      "subtract",
+      "subway"
+    ],
+    "frequency": 1606
+  },
+  {
+    "prefix": "trans-",
+    "origin": "Latin",
+    "script": "trans-",
+    "meaning": "across, beyond",
+    "examples": [
+      "transport",
+      "translate",
+      "transfer"
+    ],
+    "frequency": 608
+  },
+  {
+    "prefix": "super-",
+    "origin": "Latin",
+    "script": "super-",
+    "meaning": "above, over",
+    "examples": [
+      "supermarket",
+      "supernatural",
+      "supervise"
+    ],
+    "frequency": 930
+  },
+  {
+    "prefix": "inter-",
+    "origin": "Latin",
+    "script": "inter-",
+    "meaning": "between, among",
+    "examples": [
+      "international",
+      "interact",
+      "internet"
+    ],
+    "frequency": 1246
+  },
+  {
+    "prefix": "pro-",
+    "origin": "Greek / Latin",
+    "script": "πρό- / pro-",
+    "meaning": "before, forward, for",
+    "examples": [
+      "progress",
+      "produce",
+      "probiotic"
+    ],
+    "frequency": 2235
+  },
+  {
+    "prefix": "anti-",
+    "origin": "Greek",
+    "script": "ἀντί-",
+    "meaning": "against, opposite",
+    "examples": [
+      "antibiotic",
+      "antidote",
+      "antivirus"
+    ],
+    "frequency": 1014
+  },
+  {
+    "prefix": "de-",
+    "origin": "Latin",
+    "script": "de-",
+    "meaning": "down, away, undo",
+    "examples": [
+      "decode",
+      "deflate",
+      "decompose"
+    ],
+    "frequency": 5803
+  },
+  {
+    "prefix": "non-",
+    "origin": "Latin",
+    "script": "non-",
+    "meaning": "not",
+    "examples": [
+      "nonfiction",
+      "nonprofit",
+      "nonverbal"
+    ],
+    "frequency": 1721
+  },
+  {
+    "prefix": "con-",
+    "origin": "Latin",
+    "script": "con-",
+    "meaning": "together, with",
+    "examples": [
+      "connect",
+      "contribute",
+      "construct"
+    ],
+    "frequency": 2831
+  },
+  {
+    "prefix": "post-",
+    "origin": "Latin",
+    "script": "post-",
+    "meaning": "after, behind",
+    "examples": [
+      "postwar",
+      "postpone",
+      "postmortem"
+    ],
+    "frequency": 416
+  },
+  {
+    "prefix": "over-",
+    "origin": "Latin",
+    "script": "super-",
+    "meaning": "above, too much",
+    "examples": [
+      "overflow",
+      "overcome",
+      "overdue"
+    ],
+    "frequency": 2371
+  },
+  {
+    "prefix": "mis-",
+    "origin": "Latin",
+    "script": "minus-",
+    "meaning": "wrongly, badly",
+    "examples": [
+      "mistake",
+      "mislead",
+      "misuse"
+    ],
+    "frequency": 1770
+  },
+  {
+    "prefix": "under-",
+    "origin": "Latin",
+    "script": "sub-",
+    "meaning": "below, insufficient",
+    "examples": [
+      "undermine",
+      "understand",
+      "underdog"
+    ],
+    "frequency": 768
+  },
+  {
+    "prefix": "micro-",
+    "origin": "Greek",
+    "script": "μικρο-",
+    "meaning": "small",
+    "examples": [
+      "microscope",
+      "microbe",
+      "microwave"
+    ],
+    "frequency": 603
+  },
+  {
+    "prefix": "macro-",
+    "origin": "Greek",
+    "script": "μακρο-",
+    "meaning": "large, long",
+    "examples": [
+      "macroscopic",
+      "macroeconomics",
+      "macrobiotic"
+    ],
+    "frequency": 135
+  },
+  {
+    "prefix": "mega-",
+    "origin": "Greek",
+    "script": "μεγα-",
+    "meaning": "great, large",
+    "examples": [
+      "megaphone",
+      "megalopolis",
+      "megabyte"
+    ],
+    "frequency": 161
+  },
+  {
+    "prefix": "mono-",
+    "origin": "Greek",
+    "script": "μονο-",
+    "meaning": "one, single",
+    "examples": [
+      "monologue",
+      "monopoly",
+      "monochrome"
+    ],
+    "frequency": 569
+  },
+  {
+    "prefix": "poly-",
+    "origin": "Greek",
+    "script": "πολυ-",
+    "meaning": "many",
+    "examples": [
+      "polygon",
+      "polyglot",
+      "polymer"
+    ],
+    "frequency": 546
+  },
+  {
+    "prefix": "multi-",
+    "origin": "Latin",
+    "script": "multi-",
+    "meaning": "many",
+    "examples": [
+      "multiply",
+      "multilingual",
+      "multitask"
+    ],
+    "frequency": 421
+  },
+  {
+    "prefix": "uni-",
+    "origin": "Latin",
+    "script": "uni-",
+    "meaning": "one",
+    "examples": [
+      "unicorn",
+      "uniform",
+      "universe"
+    ],
+    "frequency": 399
+  },
+  {
+    "prefix": "bi-",
+    "origin": "Latin",
+    "script": "bi-",
+    "meaning": "two",
+    "examples": [
+      "bicycle",
+      "bilingual",
+      "binary"
+    ],
+    "frequency": 1709
+  },
+  {
+    "prefix": "tri-",
+    "origin": "Greek / Latin",
+    "script": "τρι- / tri-",
+    "meaning": "three",
+    "examples": [
+      "triangle",
+      "trilogy",
+      "tripod"
+    ],
+    "frequency": 1142
+  },
+  {
+    "prefix": "semi-",
+    "origin": "Latin",
+    "script": "semi-",
+    "meaning": "half, partly",
+    "examples": [
+      "semicircle",
+      "semifinal",
+      "semiconductor"
+    ],
+    "frequency": 331
+  },
+  {
+    "prefix": "hemi-",
+    "origin": "Greek",
+    "script": "ἡμι-",
+    "meaning": "half",
+    "examples": [
+      "hemisphere",
+      "hemicycle",
+      "hemiplegia"
+    ],
+    "frequency": 105
+  },
+  {
+    "prefix": "hyper-",
+    "origin": "Greek",
+    "script": "ὑπερ-",
+    "meaning": "over, excessive",
+    "examples": [
+      "hyperactive",
+      "hyperbole",
+      "hypertension"
+    ],
+    "frequency": 494
+  },
+  {
+    "prefix": "hypo-",
+    "origin": "Greek",
+    "script": "ὑπο-",
+    "meaning": "under, beneath",
+    "examples": [
+      "hypothesis",
+      "hypodermic",
+      "hypoglycemia"
+    ],
+    "frequency": 336
+  },
+  {
+    "prefix": "auto-",
+    "origin": "Greek",
+    "script": "αὐτο-",
+    "meaning": "self",
+    "examples": [
+      "automobile",
+      "autopilot",
+      "autobiography"
+    ],
+    "frequency": 422
+  },
+  {
+    "prefix": "bio-",
+    "origin": "Greek",
+    "script": "βιο-",
+    "meaning": "life",
+    "examples": [
+      "biology",
+      "biotic",
+      "biography"
+    ],
+    "frequency": 409
+  },
+  {
+    "prefix": "geo-",
+    "origin": "Greek",
+    "script": "γεω-",
+    "meaning": "earth",
+    "examples": [
+      "geography",
+      "geology",
+      "geometry"
+    ],
+    "frequency": 254
+  },
+  {
+    "prefix": "photo-",
+    "origin": "Greek",
+    "script": "φωτο-",
+    "meaning": "light",
+    "examples": [
+      "photograph",
+      "photosynthesis",
+      "photon"
+    ],
+    "frequency": 472
+  },
+  {
+    "prefix": "tele-",
+    "origin": "Greek",
+    "script": "τελε-",
+    "meaning": "far, distant",
+    "examples": [
+      "telephone",
+      "telescope",
+      "television"
+    ],
+    "frequency": 330
+  },
+  {
+    "prefix": "thermo-",
+    "origin": "Greek",
+    "script": "θερμο-",
+    "meaning": "heat",
+    "examples": [
+      "thermometer",
+      "thermostat",
+      "thermodynamics"
+    ],
+    "frequency": 151
+  },
+  {
+    "prefix": "chron-",
+    "origin": "Greek",
+    "script": "χρονο-",
+    "meaning": "time",
+    "examples": [
+      "chronology",
+      "chronic",
+      "anachronism"
+    ],
+    "frequency": 64
+  },
+  {
+    "prefix": "neo-",
+    "origin": "Greek",
+    "script": "νεο-",
+    "meaning": "new, recent",
+    "examples": [
+      "neoclassical",
+      "neolithic",
+      "neonatal"
+    ],
+    "frequency": 171
+  },
+  {
+    "prefix": "paleo-",
+    "origin": "Greek",
+    "script": "παλαιο-",
+    "meaning": "ancient, old",
+    "examples": [
+      "paleontology",
+      "Paleolithic",
+      "paleography"
+    ],
+    "frequency": 71
+  },
+  {
+    "prefix": "proto-",
+    "origin": "Greek",
+    "script": "πρωτο-",
+    "meaning": "first, original",
+    "examples": [
+      "prototype",
+      "protocol",
+      "proton"
+    ],
+    "frequency": 139
+  },
+  {
+    "prefix": "arch-",
+    "origin": "Greek",
+    "script": "ἀρχ-",
+    "meaning": "chief, first, ancient",
+    "examples": [
+      "architect",
+      "archive",
+      "archaeology"
+    ],
+    "frequency": 233
+  },
+  {
+    "prefix": "para-",
+    "origin": "Greek",
+    "script": "παρα-",
+    "meaning": "beside, beyond, against",
+    "examples": [
+      "parallel",
+      "parasite",
+      "parabiotic"
+    ],
+    "frequency": 685
+  },
+  {
+    "prefix": "meta-",
+    "origin": "Greek",
+    "script": "μετα-",
+    "meaning": "after, beyond, change",
+    "examples": [
+      "metabolism",
+      "metaphor",
+      "metamorphosis"
+    ],
+    "frequency": 358
+  },
+  {
+    "prefix": "dia-",
+    "origin": "Greek",
+    "script": "δια-",
+    "meaning": "through, across",
+    "examples": [
+      "diagnosis",
+      "diagonal",
+      "diameter"
+    ],
+    "frequency": 526
+  },
+  {
+    "prefix": "sym-",
+    "origin": "Greek",
+    "script": "συμ-",
+    "meaning": "together, with",
+    "examples": [
+      "symbiotic",
+      "symphony",
+      "symmetry"
+    ],
+    "frequency": 207
+  },
+  {
+    "prefix": "syn-",
+    "origin": "Greek",
+    "script": "συν-",
+    "meaning": "together, with",
+    "examples": [
+      "synthesis",
+      "synchronize",
+      "synonym"
+    ],
+    "frequency": 514
+  },
+  {
+    "prefix": "epi-",
+    "origin": "Greek",
+    "script": "ἐπι-",
+    "meaning": "upon, over, at",
+    "examples": [
+      "epidemic",
+      "epitaph",
+      "epibiotic"
+    ],
+    "frequency": 612
+  },
+  {
+    "prefix": "endo-",
+    "origin": "Greek",
+    "script": "ἐνδο-",
+    "meaning": "within, inside",
+    "examples": [
+      "endoscope",
+      "endocrine",
+      "endobiotic"
+    ],
+    "frequency": 241
+  },
+  {
+    "prefix": "exo-",
+    "origin": "Greek",
+    "script": "ἐξω-",
+    "meaning": "outside, external",
+    "examples": [
+      "exoskeleton",
+      "exodus",
+      "exoplanet"
+    ],
+    "frequency": 189
+  },
+  {
+    "prefix": "peri-",
+    "origin": "Greek",
+    "script": "περι-",
+    "meaning": "around, near",
+    "examples": [
+      "perimeter",
+      "periscope",
+      "peripheral"
+    ],
+    "frequency": 397
+  },
+  {
+    "prefix": "cata-",
+    "origin": "Greek",
+    "script": "κατα-",
+    "meaning": "down, against, wholly",
+    "examples": [
+      "catapult",
+      "catalyst",
+      "catastrophe"
+    ],
+    "frequency": 196
+  },
+  {
+    "prefix": "ana-",
+    "origin": "Greek",
+    "script": "ἀνα-",
+    "meaning": "up, back, again",
+    "examples": [
+      "anatomy",
+      "anabiotic",
+      "anachronism"
+    ],
+    "frequency": 427
+  },
+  {
+    "prefix": "apo-",
+    "origin": "Greek",
+    "script": "ἀπο-",
+    "meaning": "away from, off",
+    "examples": [
+      "apostle",
+      "apology",
+      "apoptosis"
+    ],
+    "frequency": 291
+  },
+  {
+    "prefix": "eco-",
+    "origin": "Greek",
+    "script": "οἰκο-",
+    "meaning": "house, environment",
+    "examples": [
+      "ecology",
+      "ecosystem",
+      "economy"
+    ],
+    "frequency": 115
+  },
+  {
+    "prefix": "dys-",
+    "origin": "Greek",
+    "script": "δυσ-",
+    "meaning": "bad, difficult, abnormal",
+    "examples": [
+      "dysfunction",
+      "dyslexia",
+      "dystrophy"
+    ],
+    "frequency": 159
+  },
+  {
+    "prefix": "eu-",
+    "origin": "Greek",
+    "script": "εὐ-",
+    "meaning": "good, well, true",
+    "examples": [
+      "euphoria",
+      "eulogy",
+      "eukaryote"
+    ],
+    "frequency": 475
+  },
+  {
+    "prefix": "a-",
+    "origin": "Greek",
+    "script": "ἀ-",
+    "meaning": "not, without",
+    "examples": [
+      "abiotic",
+      "amoral",
+      "atypical"
+    ],
+    "frequency": 16125
+  },
+  {
+    "prefix": "an-",
+    "origin": "Greek",
+    "script": "ἀν-",
+    "meaning": "not, without (before vowels)",
+    "examples": [
+      "anaerobic",
+      "anarchy",
+      "anemia"
+    ],
+    "frequency": 2883
+  },
+  {
+    "prefix": "xeno-",
+    "origin": "Greek",
+    "script": "ξενο-",
+    "meaning": "foreign, strange",
+    "examples": [
+      "xenophobia",
+      "xenobiotic",
+      "xenograft"
+    ],
+    "frequency": 58
+  },
+  {
+    "prefix": "zoo-",
+    "origin": "Greek",
+    "script": "ζωο-",
+    "meaning": "animal",
+    "examples": [
+      "zoology",
+      "zoobiotic",
+      "zoonosis"
+    ],
+    "frequency": 260
+  },
+  {
+    "prefix": "phyto-",
+    "origin": "Greek",
+    "script": "φυτο-",
+    "meaning": "plant",
+    "examples": [
+      "phytoplankton",
+      "phytochemical",
+      "phytotherapy"
+    ],
+    "frequency": 92
+  },
+  {
+    "prefix": "myco-",
+    "origin": "Greek",
+    "script": "μυκο-",
+    "meaning": "fungus",
+    "examples": [
+      "mycology",
+      "mycorrhiza",
+      "mycotoxin"
+    ],
+    "frequency": 50
+  },
+  {
+    "prefix": "hydro-",
+    "origin": "Greek",
+    "script": "ὑδρο-",
+    "meaning": "water",
+    "examples": [
+      "hydrogen",
+      "hydrology",
+      "hydrophobic"
+    ],
+    "frequency": 362
+  },
+  {
+    "prefix": "pyro-",
+    "origin": "Greek",
+    "script": "πυρο-",
+    "meaning": "fire",
+    "examples": [
+      "pyrotechnics",
+      "pyromaniac",
+      "pyrometer"
+    ],
+    "frequency": 180
+  },
+  {
+    "prefix": "aero-",
+    "origin": "Greek",
+    "script": "ἀερο-",
+    "meaning": "air, atmosphere",
+    "examples": [
+      "aerobic",
+      "aerosol",
+      "aerobiotically"
+    ],
+    "frequency": 201
+  },
+  {
+    "prefix": "litho-",
+    "origin": "Greek",
+    "script": "λιθο-",
+    "meaning": "stone",
+    "examples": [
+      "lithograph",
+      "lithosphere",
+      "monolith"
+    ],
+    "frequency": 116
+  },
+  {
+    "prefix": "morph-",
+    "origin": "Greek",
+    "script": "μορφο-",
+    "meaning": "form, shape",
+    "examples": [
+      "morphology",
+      "metamorphosis",
+      "amorphous"
+    ],
+    "frequency": 71
+  },
+  {
+    "prefix": "path-",
+    "origin": "Greek",
+    "script": "παθο-",
+    "meaning": "disease, feeling",
+    "examples": [
+      "pathology",
+      "pathogen",
+      "empathy"
+    ],
+    "frequency": 65
+  },
+  {
+    "prefix": "neuro-",
+    "origin": "Greek",
+    "script": "νευρο-",
+    "meaning": "nerve",
+    "examples": [
+      "neurology",
+      "neuroscience",
+      "neurotoxin"
+    ],
+    "frequency": 211
+  },
+  {
+    "prefix": "cardi-",
+    "origin": "Greek",
+    "script": "καρδιο-",
+    "meaning": "heart",
+    "examples": [
+      "cardiology",
+      "cardiac",
+      "cardiovascular"
+    ],
+    "frequency": 71
+  },
+  {
+    "prefix": "derm-",
+    "origin": "Greek",
+    "script": "δερμο-",
+    "meaning": "skin",
+    "examples": [
+      "dermatology",
+      "epidermis",
+      "hypodermic"
+    ],
+    "frequency": 54
+  },
+  {
+    "prefix": "hemo-",
+    "origin": "Greek",
+    "script": "αἱμο-",
+    "meaning": "blood",
+    "examples": [
+      "hemoglobin",
+      "hemorrhage",
+      "hemophilia"
+    ],
+    "frequency": 82
+  },
+  {
+    "prefix": "osteo-",
+    "origin": "Greek",
+    "script": "ὀστεο-",
+    "meaning": "bone",
+    "examples": [
+      "osteoporosis",
+      "osteology",
+      "osteoarthritis"
+    ],
+    "frequency": 84
+  },
+  {
+    "prefix": "cyto-",
+    "origin": "Greek",
+    "script": "κυτο-",
+    "meaning": "cell",
+    "examples": [
+      "cytology",
+      "cytoplasm",
+      "cytokine"
+    ],
+    "frequency": 104
+  },
+  {
+    "prefix": "nucleo-",
+    "origin": "Latin",
+    "script": "nucleus-",
+    "meaning": "nucleus, core",
+    "examples": [
+      "nucleotide",
+      "nucleic acid",
+      "nucleolus"
+    ],
+    "frequency": 40
+  },
+  {
+    "prefix": "geno-",
+    "origin": "Greek",
+    "script": "γενο-",
+    "meaning": "origin, race, kind",
+    "examples": [
+      "genome",
+      "genocide",
+      "genotype"
+    ],
+    "frequency": 29
+  },
+  {
+    "prefix": "chromo-",
+    "origin": "Greek",
+    "script": "χρωμο-",
+    "meaning": "color",
+    "examples": [
+      "chromosome",
+      "chromatic",
+      "chromatography"
+    ],
+    "frequency": 53
+  },
+  {
+    "prefix": "halo-",
+    "origin": "Greek",
+    "script": "ἁλο-",
+    "meaning": "salt",
+    "examples": [
+      "halogen",
+      "halobiotic",
+      "halophyte"
+    ],
+    "frequency": 52
+  },
+  {
+    "prefix": "sapro-",
+    "origin": "Greek",
+    "script": "σαπρο-",
+    "meaning": "rotten, decaying",
+    "examples": [
+      "saprobiotic",
+      "saprophyte",
+      "saprotrophic"
+    ],
+    "frequency": 32
+  },
+  {
+    "prefix": "necro-",
+    "origin": "Greek",
+    "script": "νεκρο-",
+    "meaning": "death, dead tissue",
+    "examples": [
+      "necrology",
+      "necrobiotic",
+      "necromancy"
+    ],
+    "frequency": 79
+  },
+  {
+    "prefix": "tropho-",
+    "origin": "Greek",
+    "script": "τροφο-",
+    "meaning": "nourishment, feeding",
+    "examples": [
+      "trophobiotic",
+      "trophic",
+      "dystrophy"
+    ],
+    "frequency": 20
+  },
+  {
+    "prefix": "amphi-",
+    "origin": "Greek",
+    "script": "ἀμφι-",
+    "meaning": "both, on both sides",
+    "examples": [
+      "amphibian",
+      "amphibiotic",
+      "amphitheater"
+    ],
+    "frequency": 97
+  },
+  {
+    "prefix": "gno-",
+    "origin": "Greek",
+    "script": "γνωτο-",
+    "meaning": "known, recognized",
+    "examples": [
+      "gnotobiotic",
+      "agnostic",
+      "diagnosis"
+    ],
+    "frequency": 43
+  },
+  {
+    "prefix": "iso-",
+    "origin": "Greek",
+    "script": "ἰσο-",
+    "meaning": "equal, same",
+    "examples": [
+      "isotope",
+      "isometric",
+      "isobar"
+    ],
+    "frequency": 390
+  },
+  {
+    "prefix": "homo-",
+    "origin": "Greek",
+    "script": "ὁμο-",
+    "meaning": "same, alike",
+    "examples": [
+      "homogeneous",
+      "homophone",
+      "homologous"
+    ],
+    "frequency": 268
+  },
+  {
+    "prefix": "hetero-",
+    "origin": "Greek",
+    "script": "ἑτερο-",
+    "meaning": "other, different",
+    "examples": [
+      "heterogeneous",
+      "heterosexual",
+      "heterodox"
+    ],
+    "frequency": 214
+  },
+  {
+    "prefix": "crypto-",
+    "origin": "Greek",
+    "script": "κρυπτο-",
+    "meaning": "hidden, secret",
+    "examples": [
+      "cryptic",
+      "cryptography",
+      "cryptocurrency"
+    ],
+    "frequency": 72
+  },
+  {
+    "prefix": "pseudo-",
+    "origin": "Greek",
+    "script": "ψευδο-",
+    "meaning": "false, fake",
+    "examples": [
+      "pseudoscience",
+      "pseudonym",
+      "pseudopod"
+    ],
+    "frequency": 96
+  },
+  {
+    "prefix": "phil-",
+    "origin": "Greek",
+    "script": "φιλο-",
+    "meaning": "loving, fond of",
+    "examples": [
+      "philosophy",
+      "philanthropist",
+      "philology"
+    ],
+    "frequency": 148
+  },
+  {
+    "prefix": "phob-",
+    "origin": "Greek",
+    "script": "φοβο-",
+    "meaning": "fearing, aversion to",
+    "examples": [
+      "phobia",
+      "xenophobia",
+      "hydrophobic"
+    ],
+    "frequency": 8
+  },
+  {
+    "prefix": "logo-",
+    "origin": "Greek",
+    "script": "λογο-",
+    "meaning": "word, reason, study",
+    "examples": [
+      "logic",
+      "logarithm",
+      "dialogue"
+    ],
+    "frequency": 52
+  },
+  {
+    "prefix": "demos-",
+    "origin": "Greek",
+    "script": "δημο-",
+    "meaning": "people",
+    "examples": [
+      "democracy",
+      "epidemic",
+      "demographic"
+    ],
+    "frequency": 4
+  },
+  {
+    "prefix": "astro-",
+    "origin": "Greek",
+    "script": "ἀστρο-",
+    "meaning": "star",
+    "examples": [
+      "astronomy",
+      "astronaut",
+      "astrophysics"
+    ],
+    "frequency": 98
+  },
+  {
+    "prefix": "cosmo-",
+    "origin": "Greek",
+    "script": "κοσμο-",
+    "meaning": "universe, order",
+    "examples": [
+      "cosmology",
+      "cosmopolitan",
+      "cosmos"
+    ],
+    "frequency": 72
+  },
+  {
+    "prefix": "topo-",
+    "origin": "Greek",
+    "script": "τοπο-",
+    "meaning": "place",
+    "examples": [
+      "topography",
+      "topology",
+      "toponym"
+    ],
+    "frequency": 36
+  },
+  {
+    "prefix": "theo-",
+    "origin": "Greek",
+    "script": "θεο-",
+    "meaning": "god",
+    "examples": [
+      "theology",
+      "atheist",
+      "theocracy"
+    ],
+    "frequency": 182
+  },
+  {
+    "prefix": "psycho-",
+    "origin": "Greek",
+    "script": "ψυχο-",
+    "meaning": "mind, soul",
+    "examples": [
+      "psychology",
+      "psychosis",
+      "psychosomatic"
+    ],
+    "frequency": 208
+  },
+  {
+    "prefix": "anthro-",
+    "origin": "Greek",
+    "script": "ἀνθρωπο-",
+    "meaning": "human",
+    "examples": [
+      "anthropology",
+      "anthropomorphic",
+      "philanthropy"
+    ],
+    "frequency": 74
+  },
+  {
+    "prefix": "ethn-",
+    "origin": "Greek",
+    "script": "ἐθνο-",
+    "meaning": "people, culture, race",
+    "examples": [
+      "ethnology",
+      "ethnic",
+      "ethnography"
+    ],
+    "frequency": 72
+  },
+  {
+    "prefix": "gen-",
+    "origin": "Greek / Latin",
+    "script": "γεν- / gen-",
+    "meaning": "birth, origin, kind",
+    "examples": [
+      "generate",
+      "genetics",
+      "genesis"
+    ],
+    "frequency": 370
+  },
+  {
+    "prefix": "vor-",
+    "origin": "Latin",
+    "script": "vorare",
+    "meaning": "eating, devouring",
+    "examples": [
+      "carnivore",
+      "herbivore",
+      "voracious"
+    ],
+    "frequency": 34
+  },
+  {
+    "prefix": "omni-",
+    "origin": "Latin",
+    "script": "omni-",
+    "meaning": "all, every",
+    "examples": [
+      "omnivore",
+      "omniscient",
+      "omnipotent"
+    ],
+    "frequency": 61
+  },
+  {
+    "prefix": "bene-",
+    "origin": "Latin",
+    "script": "bene-",
+    "meaning": "well, good",
+    "examples": [
+      "benefit",
+      "benevolent",
+      "benefactor"
+    ],
+    "frequency": 72
+  },
+  {
+    "prefix": "male-",
+    "origin": "Latin",
+    "script": "male-",
+    "meaning": "bad, ill",
+    "examples": [
+      "malevolent",
+      "malfunction",
+      "malignant"
+    ],
+    "frequency": 45
+  },
+  {
+    "prefix": "ultra-",
+    "origin": "Latin",
+    "script": "ultra-",
+    "meaning": "beyond, extreme",
+    "examples": [
+      "ultraviolet",
+      "ultrasound",
+      "ultramarathon"
+    ],
+    "frequency": 220
+  },
+  {
+    "prefix": "intra-",
+    "origin": "Latin",
+    "script": "intra-",
+    "meaning": "within",
+    "examples": [
+      "intravenous",
+      "intracellular",
+      "intranet"
+    ],
+    "frequency": 111
+  },
+  {
+    "prefix": "extra-",
+    "origin": "Latin",
+    "script": "extra-",
+    "meaning": "outside, beyond",
+    "examples": [
+      "extraordinary",
+      "extraterrestrial",
+      "extracurricular"
+    ],
+    "frequency": 143
+  },
+  {
+    "prefix": "circum-",
+    "origin": "Latin",
+    "script": "circum-",
+    "meaning": "around",
+    "examples": [
+      "circumference",
+      "circumstance",
+      "circumnavigate"
+    ],
+    "frequency": 170
+  },
+  {
+    "prefix": "contra-",
+    "origin": "Latin",
+    "script": "contra-",
+    "meaning": "against, opposite",
+    "examples": [
+      "contradict",
+      "contrast",
+      "contraband"
+    ],
+    "frequency": 170
+  },
+  {
+    "prefix": "retro-",
+    "origin": "Latin",
+    "script": "retro-",
+    "meaning": "backward, behind",
+    "examples": [
+      "retrospect",
+      "retrograde",
+      "retrovirus"
+    ],
+    "frequency": 128
+  }
+]

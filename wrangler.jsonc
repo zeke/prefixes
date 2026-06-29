@@ -1,0 +1,6 @@
+{
+  "name": "prefixes",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-06-27",
+  "workers_dev": true
+}
