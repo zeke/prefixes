@@ -2,5 +2,11 @@
   "name": "prefixes",
   "main": "src/index.ts",
   "compatibility_date": "2025-06-27",
-  "workers_dev": true
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "prefixes.ziki.boo/*",
+      "zone_name": "ziki.boo"
+    }
+  ]
 }
