@@ -163,17 +163,28 @@ function flashcardsHtml(data: string): string {
     .card-wrap.leave-next  { animation: slide-out-left  0.32s cubic-bezier(0.4, 0, 0.2, 1) forwards; pointer-events: none; }
     .card-wrap.leave-prev  { animation: slide-out-right 0.32s cubic-bezier(0.4, 0, 0.2, 1) forwards; pointer-events: none; }
 
+    @keyframes flip-to-back {
+      0%   { transform: rotateY(0deg)   scale(1); }
+      45%  { transform: rotateY(90deg)  scale(0.96); }
+      55%  { transform: rotateY(90deg)  scale(0.96); }
+      100% { transform: rotateY(180deg) scale(1); }
+    }
+    @keyframes flip-to-front {
+      0%   { transform: rotateY(180deg) scale(1); }
+      45%  { transform: rotateY(90deg)  scale(0.96); }
+      55%  { transform: rotateY(90deg)  scale(0.96); }
+      100% { transform: rotateY(0deg)   scale(1); }
+    }
+
     /* .card: 3D flip container inside the wrap */
     .card {
       position: absolute;
       inset: 0;
       transform-style: preserve-3d;
-      transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .card.flipped {
-      transform: rotateY(180deg);
-    }
+    .card.flip-back  { animation: flip-to-back  0.42s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+    .card.flip-front { animation: flip-to-front 0.42s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
 
     .face {
       position: absolute;
@@ -195,8 +206,10 @@ function flashcardsHtml(data: string): string {
       transform: rotateY(180deg);
     }
 
-    .card.flipped .face.front { pointer-events: none; }
-    .card:not(.flipped) .face.back { pointer-events: none; }
+    .card.flip-back  .face.front { pointer-events: none; }
+    .card.flip-front .face.back  { pointer-events: none; }
+    .card[data-flipped="1"]:not(.flip-front) .face.front { pointer-events: none; }
+    .card[data-flipped="0"]:not(.flip-back)  .face.back  { pointer-events: none; }
 
     .face-prefix {
       font-size: clamp(3.5rem, 10vw, 5rem);
@@ -294,10 +307,18 @@ function flashcardsHtml(data: string): string {
       const wrap = currentWrap();
       if (!wrap || animating) return;
       const card = wrap.querySelector(".card");
-      card.classList.toggle("flipped");
-      if (card.classList.contains("flipped")) {
+      const isFlipped = card.dataset.flipped === "1";
+      card.classList.remove("flip-back", "flip-front");
+      // force reflow so animation restarts cleanly
+      void card.offsetWidth;
+      if (!isFlipped) {
+        card.classList.add("flip-back");
+        card.dataset.flipped = "1";
         hasFlipped = true;
         updateButtons();
+      } else {
+        card.classList.add("flip-front");
+        card.dataset.flipped = "0";
       }
     }
 
@@ -341,11 +362,11 @@ function flashcardsHtml(data: string): string {
     });
 
     document.addEventListener("keydown", e => {
-      if (e.target === document.body || e.target === scene) {
-        if (e.key === "ArrowRight" || e.key === "ArrowDown") go(1);
-        if (e.key === "ArrowLeft"  || e.key === "ArrowUp")   go(-1);
-        if (e.key === " " || e.key === "Enter") { e.preventDefault(); flip(); }
-      }
+      const tag = e.target?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      if (e.key === "ArrowRight" || e.key === "ArrowDown") go(1);
+      if (e.key === "ArrowLeft"  || e.key === "ArrowUp")   go(-1);
+      if (e.key === " " || e.key === "Enter") { e.preventDefault(); flip(); }
     });
   </script>
 </body>
