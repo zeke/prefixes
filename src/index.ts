@@ -220,10 +220,13 @@ function flashcardsHtml(data: string): string {
     .card[data-flipped="0"]:not(.flip-back)  .face.back  { pointer-events: none; }
 
     .face-prefix {
-      font-size: clamp(3.5rem, 10vw, 5rem);
+      font-size: clamp(2rem, 8vw, 5rem);
       font-weight: bold;
       letter-spacing: 0.01em;
       line-height: 1;
+      overflow-wrap: break-word;
+      max-width: 100%;
+      text-align: center;
     }
 
     .face-origin {
