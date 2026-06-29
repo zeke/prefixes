@@ -272,10 +272,38 @@ function flashcardsHtml(data: string): string {
   <script>
     const PREFIXES = ${data};
 
-    const deck      = [...PREFIXES].sort(() => Math.random() - 0.5);
-    let idx         = 0;
-    let hasFlipped  = false;
-    let animating   = false;
+    const PROGRESS_KEY = "prefixes-progress-v1";
+
+    // Restore or create a fresh shuffle
+    let deck, idx, hasFlipped = false, animating = false;
+
+    (() => {
+      try {
+        const saved = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "null");
+        if (saved && Array.isArray(saved.order) && saved.order.length === PREFIXES.length) {
+          // Reconstruct deck from saved order
+          const byPrefix = Object.fromEntries(PREFIXES.map(p => [p.prefix, p]));
+          const restored = saved.order.map(k => byPrefix[k]).filter(Boolean);
+          if (restored.length === PREFIXES.length) {
+            deck = restored;
+            idx  = Math.min(Math.max(0, saved.idx || 0), deck.length - 1);
+            hasFlipped = idx > 0;
+            return;
+          }
+        }
+      } catch {}
+      deck = [...PREFIXES].sort(() => Math.random() - 0.5);
+      idx  = 0;
+    })();
+
+    function saveProgress() {
+      try {
+        localStorage.setItem(PROGRESS_KEY, JSON.stringify({
+          order: deck.map(p => p.prefix),
+          idx,
+        }));
+      } catch {}
+    }
 
     const scene    = document.getElementById("scene");
     const progress = document.getElementById("progress");
@@ -344,6 +372,7 @@ function flashcardsHtml(data: string): string {
       scene.appendChild(inWrap);
 
       progress.textContent = (idx + 1) + " / " + deck.length;
+      saveProgress();
       updateButtons();
 
       inWrap.addEventListener("animationend", () => {
@@ -353,10 +382,10 @@ function flashcardsHtml(data: string): string {
       }, { once: true });
     }
 
-    // Initial card, no animation
-    const first = makeWrap(deck[0]);
+    // Initial card (restored position or fresh start), no animation
+    const first = makeWrap(deck[idx]);
     scene.appendChild(first);
-    progress.textContent = "1 / " + deck.length;
+    progress.textContent = (idx + 1) + " / " + deck.length;
     updateButtons();
 
     btnPrev.addEventListener("click", () => go(-1));
