@@ -303,6 +303,8 @@ function flashcardsHtml(data: string): string {
           idx,
         }));
       } catch {}
+      const prefix = deck[idx].prefix.replace(/-$/, "");
+      history.replaceState(null, "", "?p=" + encodeURIComponent(prefix));
     }
 
     const scene    = document.getElementById("scene");
@@ -382,10 +384,22 @@ function flashcardsHtml(data: string): string {
       }, { once: true });
     }
 
+    // If a ?p= param is present, jump to that card (overrides saved position)
+    const qp = new URLSearchParams(location.search).get("p");
+    if (qp) {
+      const target = qp.toLowerCase().replace(/-$/, "");
+      const found = deck.findIndex(p => p.prefix.replace(/-$/, "").toLowerCase() === target);
+      if (found !== -1) {
+        idx = found;
+        hasFlipped = idx > 0;
+      }
+    }
+
     // Initial card (restored position or fresh start), no animation
     const first = makeWrap(deck[idx]);
     scene.appendChild(first);
     progress.textContent = (idx + 1) + " / " + deck.length;
+    saveProgress();
     updateButtons();
 
     btnPrev.addEventListener("click", () => go(-1));
