@@ -2,7 +2,9 @@
 
 Greek and Latin prefix flashcards, deployed as a Cloudflare Worker.
 
-Live at [prefixes.ziki.workers.dev](https://prefixes.ziki.workers.dev)
+Live at [prefixes.ziki.boo](https://prefixes.ziki.boo)
+
+![screenshot](screenshot.jpg)
 
 ## Pages
 
